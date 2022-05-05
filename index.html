@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>JENIFFER MÁXIMO</title>
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>J<span>MÁXIMO</span><img src="imagem/colchetes.png" alt="logo"></h2>
+            
+            
+        </div>
+        
+        <ul>
+            <li>
+                <a target="blank" href="https://github.com/jeniffer-mxm">Github</a>
+            </li>
+            <li>
+                <a target="blank" href="https://www.linkedin.com/in/jeniffermaximo/">LinkedIm</a>
+            </li>
+            <li>
+                <a target="blank" href="https://wa.me/21996310471">WhatsApp</a>
+            </li>
+            <li>
+                <a target="blank" href="mailto:jeniffer1994maximo@gmail.com">Email</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>JENIFFER MÁXIMO</h1>
+                <h5 class="subtitulo">Development Student</h5>
+            </div>
+
+            <div onclick="displayAbout()" id="arrow">
+                <img id="animation" src="imagem/seta.png">
+            </div>
+
+            <div style="display: none;" id="about">
+                <p>Preso por oportunidades de me aprimorar constantemente e transparência nos cargos que ocupo.
+                Minha jornada profissional está sendo desenhada na área de Programação, na qual
+                sou graduanda e estou a procura da primeira oportunidade. 
+                Muito do que sou hoje devo as minhas experiências. Aprendo todos os dias a ter resiliência e foco na graduação.
+                Apaixonada por Tecnologia e desafios; <br>                  
+                Haring Coders #3</p>
+            </div>
+
+            <div class="form">
+                <p>DEIXE SEU CONTATO!</p>
+                <form action="">
+                    <input type="text" placeholder="Seu melhor email">
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script>  
+        function displayAbout() {
+            var arrow = document.getElementById('animation')
+            arrow.classList.toggle('rotate');
+            var arrow = document.getElementById('about')
+            arrow.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
