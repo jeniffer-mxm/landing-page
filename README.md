@@ -2,5 +2,5 @@ Este é o repositório de uma Landing page Dev.
 
 Tecnologias e Ferramentas
 
-HTML & CSS: Para estruturação e estilização responsiva do site.![pri](https://github.com/user-attachments/assets/109ff34c-d2fd-46b1-b371-224c8138bd67)
-![prt1](https://github.com/user-attachments/assets/6b920cd2-864a-4fbd-822e-2262bd8fce5d)
+HTML & CSS: Para estruturação e estilização responsiva do site.![prt1](https://github.com/user-attachments/assets/003236db-a79a-4a79-be07-cd3c730f9932)
+![pri](https://github.com/user-attachments/assets/205c020b-65ee-492e-ac2d-b76a46f008ea)
